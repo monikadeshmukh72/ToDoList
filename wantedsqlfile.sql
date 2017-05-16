@@ -36,7 +36,7 @@ CREATE TABLE `todo` (
 
 LOCK TABLES `todo` WRITE;
 /*!40000 ALTER TABLE `todo` DISABLE KEYS */;
-INSERT INTO `todo` VALUES ('want to complete program','2017-05-15','2017-05-10','all'),('kill myself','2017-05-17','2017-05-15','completed'),('hii','2017-05-03','2017-05-09','pending'),('111','2017-05-17','2017-05-19','pending'),('monika','2017-05-18','2017-05-03','pending'),('hii my name is anshika','2017-05-18','2017-05-16','pending');
+INSERT INTO `todo` VALUES ('want to complete program','2017-05-15','2017-05-10','completed');
 /*!40000 ALTER TABLE `todo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
